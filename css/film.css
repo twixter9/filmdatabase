@@ -1,0 +1,106 @@
+.navbar-brand {
+    color: #FDE201;
+}
+
+#search {
+    color: #FDE201;
+}
+
+body {
+    background-color: #292B2F;
+}
+
+.dropdown {
+    background-color: #FDE201;
+}
+
+.form-inline {
+    background-color: #292B2F;
+}
+
+.form-control {
+    color: #FDE201;
+}
+
+.btn:focus,.btn:active {
+    outline: none !important;
+    box-shadow: none;
+ }
+
+ a:hover, a:focus {
+    color: #FDE201;
+}
+
+h5 {
+    color: white;   
+    font-size: 16px;
+}
+
+.row {
+    text-align: center;
+}
+
+.form-control::-webkit-input-placeholder { 
+    color: #FDE201; 
+}
+
+.form-control:focus::-webkit-input-placeholder { 
+    color: #FDE201; 
+}
+
+.form-control {
+    border: none;
+  background-color: #292B2F!important;
+}
+
+.form-control:focus {
+    border-color: none;
+  box-shadow: none;
+  background-color: #292B2F!important;
+  color: #FDE201; 
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    background-color: #FDE201;
+  }
+
+  
+/* five column CSS */
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-xs-5ths {
+    width: 20%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+    .col-sm-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+    
